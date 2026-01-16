@@ -3,12 +3,11 @@ import React from 'react';
 import type { Metadata } from 'next';
 import Link from 'next/link';
 
-import PageWrapper from './components/PageWrapper';
-
 import Markdown from 'markdown-to-jsx';
 
 import { homeMarkdown } from '@/data/home';
-import { Mako } from 'next/font/google';
+
+import PageWrapper from './components/PageWrapper';
 
 export const metadata: Metadata = {
   description:
@@ -24,9 +23,7 @@ export default function HomePage() {
             <h2>
               <Link href="/about">L’instant hypnose</Link>
             </h2>
-            <p>
-              Place holder
-            </p>
+            <p>Place holder</p>
           </div>
         </header>
         <Markdown>{homeMarkdown}</Markdown>

@@ -28,7 +28,10 @@ const SideBar: React.FC = () => {
       <section className="blurb">
         <h2>A propos</h2>
         <p>
-          Praticienne en hypnose thérapeutique (approche ericksonnienne), je vous propose lors de nos rencontres, dans un cadre sécure, de vous accompagner afin de laisser émerger vos propres ressources, de les mobiliser et ainsi vous soutenir dans la gestion de votre problématique. 
+          Praticienne en hypnose thérapeutique (approche ericksonnienne), je vous propose lors de
+          nos rencontres, dans un cadre sécure, de vous accompagner afin de laisser émerger vos
+          propres ressources, de les mobiliser et ainsi vous soutenir dans la gestion de votre
+          problématique.
         </p>
         <ul className="actions">
           <li>

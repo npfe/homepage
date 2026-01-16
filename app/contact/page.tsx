@@ -24,13 +24,17 @@ export default function ContactPage() {
         <div className="email-at">
           <span>
             <b>Telephone </b>079 790 94 35
-          </span> <br></br>
+          </span>
+          <br></br>
           <span>
-            <b>Addresse: </b> Chemin des mélèzes 16, 1965 Savièse 
-          </span><br></br>
+            <b>Addresse: </b>Chemin des mélèzes 16, 1965 Savièse
+          </span>
+          <br></br>
           <span>
-            <b>mail: </b> <a href='mailto:marianne.pfef@gmail.com'>marianne.pfef@gmail.com</a>
-          </span><br></br>
+            <b>mail: </b>
+            <a href="mailto:marianne.pfef@gmail.com">marianne.pfef@gmail.com</a>
+          </span>
+          <br></br>
         </div>
       </article>
     </PageWrapper>
