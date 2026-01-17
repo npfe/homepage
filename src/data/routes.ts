@@ -11,7 +11,7 @@ const routes: Route[] = [
     path: '/',
   },
   {
-    label: 'A Propos',
+    label: 'Mon parcours',
     path: '/about',
   },
   {
