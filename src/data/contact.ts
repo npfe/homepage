@@ -17,37 +17,37 @@ const data: ContactItem[] = [
   {
     link: 'https://github.com/mldangelo',
     label: 'Github',
-    icon: faGithub,
+    icon: faGithub as IconDefinition,
   },
   {
     link: 'https://facebook.com/d',
     label: 'Facebook',
-    icon: faFacebookF,
+    icon: faFacebookF as IconDefinition,
   },
   {
     link: 'https://www.instagram.com/dangelosaurus/',
     label: 'Instagram',
-    icon: faInstagram,
+    icon: faInstagram as IconDefinition,
   },
   {
     link: 'https://www.linkedin.com/in/michaelldangelo',
     label: 'LinkedIn',
-    icon: faLinkedinIn,
+    icon: faLinkedinIn as IconDefinition,
   },
   {
     link: 'https://angel.co/michael-d-angelo',
     label: 'Angel List',
-    icon: faAngellist,
+    icon: faAngellist as IconDefinition,
   },
   {
     link: 'https://twitter.com/dangelosaurus',
     label: 'Twitter',
-    icon: faTwitter,
+    icon: faTwitter as IconDefinition,
   },
   {
     link: 'mailto:michael.l.dangelo@gmail.com',
     label: 'Email',
-    icon: faEnvelope,
+    icon: faEnvelope as IconDefinition,
   },
 ];
 
