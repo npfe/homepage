@@ -16,11 +16,11 @@ const SideBar: React.FC = () => {
       <section id="intro">
         <Link href="/" className="logo">
           <Image
-            src="/homepage/images/me.jpg"
+            src="/images/me.jpg"
             alt="Marianne Pfefferlé"
             width={251}
             height={357}
-            priority
+            priority 
           />
         </Link>
         <header>
