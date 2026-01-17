@@ -7,7 +7,7 @@ import PageWrapper from '../components/PageWrapper';
 
 export const metadata: Metadata = {
   title: 'Contact',
-  description: "Contacter Marianne Pfefferlé",
+  description: 'Contacter Marianne Pfefferlé',
 };
 
 export default function ContactPage() {
@@ -21,35 +21,33 @@ export default function ContactPage() {
             </h2>
           </div>
         </header>
-      <div className="contact">
-        <div className="contact-left">
-          <span>
-            <b>Adresse:</b><br />
-            Chemin des mélèzes 16<br />
-            1965 Savièse
-          </span>
+        <div className="contact">
+          <div className="contact-left">
+            <span>
+              <b>Adresse:</b>
+              <br />
+              Chemin des mélèzes 16
+              <br />
+              1965 Savièse
+            </span>
 
-          <span>
-            <b>Mail:</b><br />
-            <a href="mailto:marianne.pfef@gmail.com">
-              marianne.pfef@gmail.com
-            </a>
-          </span>
+            <span>
+              <b>Mail:</b>
+              <br />
+              <a href="mailto:marianne.pfef@gmail.com">marianne.pfef@gmail.com</a>
+            </span>
+          </div>
+
+          <div className="contact-right">
+            <span>
+              <b>Téléphone:</b>
+              <br />
+              079 790 94 35
+            </span>
+
+            <img src="/images/me.jpg" alt="Contact" className="contact-image" />
+          </div>
         </div>
-
-        <div className="contact-right">
-          <span>
-            <b>Téléphone:</b><br />
-            079 790 94 35
-          </span>
-
-          <img
-            src="/images/me.jpg"
-            alt="Contact"
-            className="contact-image"
-          />
-        </div>
-      </div>
       </article>
     </PageWrapper>
   );
