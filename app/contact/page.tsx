@@ -3,6 +3,8 @@ import React from 'react';
 import type { Metadata } from 'next';
 import Link from 'next/link';
 
+import { getAssetPath } from '@/utils/assetPath';
+
 import PageWrapper from '../components/PageWrapper';
 
 export const metadata: Metadata = {
@@ -45,7 +47,7 @@ export default function ContactPage() {
               079 790 94 35
             </span>
 
-            <img src="/images/me.jpg" alt="Contact" className="contact-image" />
+            <img src={getAssetPath('/images/me.jpg')} alt="Contact" className="contact-image" />
           </div>
         </div>
       </article>

@@ -6,6 +6,7 @@ import Link from 'next/link';
 import Markdown from 'markdown-to-jsx';
 
 import { homeMarkdown } from '@/data/home';
+import { getAssetPath } from '@/utils/assetPath';
 
 import PageWrapper from './components/PageWrapper';
 
@@ -19,7 +20,10 @@ export default function HomePage() {
     <PageWrapper>
       <article className="post" id="index">
         <header>
-          <div className="title title-home">
+          <div
+            className="title title-home"
+            style={{ backgroundImage: `url(${getAssetPath('/images/clouds.jpg')})` }}
+          >
             <h2 className="h2-home">
               <Link href="/about">L’instant hypnose</Link>
             </h2>

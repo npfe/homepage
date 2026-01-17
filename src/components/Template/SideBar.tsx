@@ -8,8 +8,6 @@ import { usePathname } from 'next/navigation';
 
 import { getAssetPath } from '@/utils/assetPath';
 
-import ContactIcons from '../Contact/ContactIcons';
-
 const SideBar: React.FC = () => {
   const pathname = usePathname();
 
@@ -57,9 +55,8 @@ const SideBar: React.FC = () => {
       </section>
 
       <section id="footer">
-        <ContactIcons />
         <p className="copyright">
-          &copy; Michael D&apos;Angelo <Link href="/">mldangelo.com</Link>.
+          &copy; Marianne Pfefferle <Link href="/">instanthypnose.ch</Link>.
         </p>
       </section>
     </section>

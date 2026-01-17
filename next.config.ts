@@ -40,5 +40,4 @@ if (process.env.TURBOPACK !== '1') {
 } else {
   module.exports = nextConfig;
 }
-console.log(nextConfig.basePath, nextConfig.assetPrefix)
 export default nextConfig;
