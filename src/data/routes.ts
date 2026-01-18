@@ -11,10 +11,6 @@ const routes: Route[] = [
     path: '/',
   },
   {
-    label: 'Mon parcours',
-    path: '/about',
-  },
-  {
     label: 'Contact',
     path: '/contact',
   },
