@@ -27,7 +27,7 @@ export default function HomePage() {
             <h2 className="h2-home">
               <Link href="/about">L’instant hypnose</Link>
             </h2>
-            <blockquote>
+            <blockquote className="home-quote">
               <p>Vivre une expérience en hypnose est à chaque fois une aventure.</p>
               <p>-François Roustang</p>
             </blockquote>
